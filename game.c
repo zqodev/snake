@@ -57,8 +57,9 @@ int get_level(int *snake_length)
         return 4;
     } else if (*snake_length < 25) {
         return 5;
+    } else {
+        return 6;   
     }
-
     return 0;
 }
 
