@@ -65,6 +65,10 @@ int main(void)
                 Sleep(125);
                 break;
             }
+            case 6: {
+                Sleep(100);
+                break;
+            }
         }
     }
 }
