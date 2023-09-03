@@ -49,13 +49,13 @@ int get_level(int *snake_length)
 {
     if (*snake_length < 5) {
         return 1;
-    } else if (snake_length < 10) {
+    } else if (*snake_length < 10) {
         return 2;
-    } else if (snake_length < 15) {
+    } else if (*snake_length < 15) {
         return 3;
-    } else if (snake_length < 20) {
+    } else if (*snake_length < 20) {
         return 4;
-    } else if (snake_length < 25) {
+    } else if (*snake_length < 25) {
         return 5;
     }
 
